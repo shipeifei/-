@@ -15,7 +15,7 @@ enter image description here 移动性能要考虑Android低端机与2G网络场
 
 
 
-发布前必要检查项
+3、发布前必要检查项
 
 • 所有图片必须有进行过压缩
 
@@ -25,7 +25,7 @@ enter image description here 移动性能要考虑Android低端机与2G网络场
 
 
 
-加载性能优化, 达到打开足够快
+4、加载性能优化, 达到打开足够快
 
 • 数据离线化，考虑将数据缓存在 localStorage
 
@@ -57,7 +57,7 @@ enter image description here 移动性能要考虑Android低端机与2G网络场
 
 
 
-运行性能优化, 达到操作足够流畅
+5、运行性能优化, 达到操作足够流畅
 
 • 避免 iOS 300+ms 点击延时问题 注意！
 
@@ -80,7 +80,7 @@ enter image description here 移动性能要考虑Android低端机与2G网络场
 • Keep it simple
 
 
-在线性能检测评定工具使用指南
+6、在线性能检测评定工具使用指南
 
 • 访问 Google PageSpeed 在线评定网站
 
