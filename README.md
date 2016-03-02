@@ -13,10 +13,14 @@ Heiti SC Light 黑体-简 细体 （iOS 7后废弃）Heiti SC Medium 黑体-简 
 enter image description here 移动性能要考虑Android低端机与2G网络场景下性能 注意！
 
 
+
+
 发布前必要检查项
 • 所有图片必须有进行过压缩
 • 考虑适度的有损压缩，如转化为80%质量的jpg图片
 • 考虑把大图切成多张小图，常见在banner图过大的场景
+
+
 加载性能优化, 达到打开足够快
 • 数据离线化，考虑将数据缓存在 localStorage
 • 初始请求资源数 < 4 注意！
@@ -32,6 +36,9 @@ enter image description here 移动性能要考虑Android低端机与2G网络场
 • 初始首屏之外的图片资源按需加载（判断可视区域） 注意！
 • 单页面应用(SPA)考虑延迟加载非首屏业务模块
 • 开启Keep-Alive链路复用
+
+
+
 运行性能优化, 达到操作足够流畅
 • 避免 iOS 300+ms 点击延时问题 注意！
 • 缓存 DOM 选择与计算
@@ -43,6 +50,8 @@ enter image description here 移动性能要考虑Android低端机与2G网络场
 • HTML结构层级保持足够简单
 • 尽能少的使用CSS高级选择器与通配选择器
 • Keep it simple
+
+
 在线性能检测评定工具使用指南
 • 访问 Google PageSpeed 在线评定网站
 • 在地址栏输入目标URL地址，点击分析按钮开始检测
